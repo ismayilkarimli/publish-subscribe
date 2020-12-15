@@ -16,7 +16,7 @@ socket.bind(p) # bind socket
 
 contents = os.listdir(dir)
 
-while True: # publisher will publish contents for 5 times
+while True:
     for content in contents:
         socket.send_string('Folder ' + dir + ' has ' + content)
     time.sleep(2) # waiting 2 seconds before republishing contents of a directory
