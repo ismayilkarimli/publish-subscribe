@@ -1,5 +1,4 @@
 import zmq, time, os
-import subprocess as sp
 
 dir = input('Enter directory: ')
 

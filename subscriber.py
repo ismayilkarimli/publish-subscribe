@@ -1,4 +1,4 @@
-import zmq, time
+import zmq
 
 context = zmq.Context()
 socket = context.socket(zmq.SUB) # creating subscriber socket
